@@ -302,26 +302,38 @@ header {
       margin-top: 29px;
       line-height: 24px; }
   #projects #projects-img {
-    height: 319px;
-    position: relative; }
-    #projects #projects-img img {
-      float: left; }
+    height: 319px; }
+    #projects #projects-img div {
+      float: left;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+    #projects #projects-img #projects-img-1 {
+      width: 701px;
+      height: 319px;
+      background-image: url("../img/work1.png"); }
     #projects #projects-img #projects-img-2 {
-      margin-left: -1px; }
+      margin-left: -1px;
+      width: 336px;
+      height: 319px;
+      background-image: url("../img/project2.png"); }
     #projects #projects-img #projects-img-3 {
-      margin-left: -2px; }
+      margin-left: -2px;
+      width: 334px;
+      height: 319px;
+      background-image: url("../img/project3.png"); }
   #projects #vintage {
-    position: absolute;
     color: white;
-    font-weight: normal;
-    right: 457px;
-    top: 128px; }
+    font-weight: normal; }
   #projects #branding {
-    position: absolute;
     color: white;
-    font-weight: normal;
-    right: 114px;
-    top: 128px; }
+    font-weight: normal; }
   #projects #projects-banner {
     height: 113px;
     background-image: url("../img/banner.png");
@@ -1093,26 +1105,7 @@ header {
     #contacts #contacts-cards .contacts-cards-card {
       width: 287px;
       height: 272px;
-      background-color: white;
-      position: relative; }
-      #contacts #contacts-cards .contacts-cards-card #contacts-cards-marker1 {
-        position: absolute;
-        height: 50px;
-        width: 50px;
-        left: 122px;
-        top: 48px; }
-      #contacts #contacts-cards .contacts-cards-card #contacts-cards-marker2 {
-        position: absolute;
-        height: 50px;
-        width: 50px;
-        left: 122px;
-        top: 48px; }
-      #contacts #contacts-cards .contacts-cards-card #contacts-cards-marker3 {
-        position: absolute;
-        height: 45px;
-        width: 45px;
-        left: 118px;
-        top: 48px; }
+      background-color: white; }
       #contacts #contacts-cards .contacts-cards-card .contacts-card-name {
         font-size: 16px;
         text-align: center;
@@ -1147,6 +1140,45 @@ header {
         text-align: center;
         line-height: 21px;
         color: #81868E; }
+
+.contacts__bg {
+  width: 287px;
+  height: 145px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.contacts__bg-l {
+  background-image: url("../img/email.png"); }
+
+.contacts__bg-m {
+  background-image: url("../img/adress.png"); }
+
+.contacts__bg-r {
+  background-image: url("../img/phone.png"); }
+
+.contacts__marker {
+  height: 50px;
+  width: 50px;
+  z-index: 4; }
+
+.contacts__marker-l {
+  background-image: url("../img/letter.png"); }
+
+.contacts__marker-m {
+  background-image: url("../img/placeholder.png"); }
+
+.contacts__marker-r {
+  background-image: url("../img/telephone.png");
+  height: 45px;
+  width: 45px; }
 
 #message {
   height: 472px; }

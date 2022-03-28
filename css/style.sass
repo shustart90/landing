@@ -260,27 +260,33 @@ header
       line-height: 24px
   #projects-img
     height: 319px
-    img
+    div
       float: left
-    position: relative
+      display: flex
+      justify-content: center
+      align-items: center
+    #projects-img-1
+      width: 701px
+      height: 319px
+      background-image: url("../img/work1.png")
     #projects-img-2
       margin-left: -1px
+      width: 336px
+      height: 319px
+      background-image: url("../img/project2.png")
     #projects-img-3
       margin-left: -2px
+      width: 334px
+      height: 319px
+      background-image: url("../img/project3.png")
   #vintage
-    position: absolute
     color: white
     @extend %h2-preset
     font-weight: normal
-    right: 457px
-    top: 128px
   #branding
-    position: absolute
     color: white
     @extend %h2-preset
     font-weight: normal
-    right: 114px
-    top: 128px
   #projects-banner
     height: 113px
     background-image: url("../img/banner.png")
@@ -996,25 +1002,6 @@ header
       width: 287px
       height: 272px
       background-color: white
-      position: relative
-      #contacts-cards-marker1
-        position: absolute
-        height: 50px
-        width: 50px
-        left: 122px
-        top: 48px
-      #contacts-cards-marker2
-        position: absolute
-        height: 50px
-        width: 50px
-        left: 122px
-        top: 48px
-      #contacts-cards-marker3
-        position: absolute
-        height: 45px
-        width: 45px
-        left: 118px
-        top: 48px
       .contacts-card-name
         @extend %p-preset
         font-size: 16px
@@ -1053,6 +1040,32 @@ header
         text-align: center
         line-height: 21px
         color: #81868E
+.contacts__bg
+  width: 287px
+  height: 145px
+  position: relative
+  display: flex
+  align-items: center
+  justify-content: center
+.contacts__bg-l
+  background-image: url("../img/email.png")
+.contacts__bg-m
+  background-image: url("../img/adress.png")
+.contacts__bg-r
+  background-image: url("../img/phone.png")
+.contacts__marker
+  height: 50px
+  width: 50px
+  z-index: 4
+.contacts__marker-l
+  background-image: url("../img/letter.png")
+.contacts__marker-m
+  background-image: url("../img/placeholder.png")
+.contacts__marker-r
+  background-image: url("../img/telephone.png")
+  height: 45px
+  width: 45px
+
 #message
   height: 472px
   #message-block-mini
