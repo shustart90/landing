@@ -307,9 +307,9 @@ header {
     #projects #projects-img img {
       float: left; }
     #projects #projects-img #projects-img-2 {
-      margin-left: 0; }
+      margin-left: -1px; }
     #projects #projects-img #projects-img-3 {
-      margin-left: 0; }
+      margin-left: -2px; }
   #projects #vintage {
     position: absolute;
     color: white;
