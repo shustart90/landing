@@ -19,7 +19,13 @@
 @font-face {
   font-family: "SourceSansProBlack";
   src: url("../fonts/SourceSansPro-Black.ttf"); }
-#team #team-h2, #testimonials h2, #price h2, #subscribe h2, #contacts h2, footer h2, #bouncy #bouncy-text h2, #details-bouncy h2, #projects #projects-text h3, #projects #vintage, #projects #branding, #services h2, #impressed #impressed-text h2, #portfolio h2, #portfolio #portfolio-photos .portfolio-photos-column #portfolio-photos-text h3, #team #team-main #team-main-text #team-main-text-occup, #team #team-main #team-main-text .team-main-text-diagr .team-main-text-diagr-text, #news #content h2, #news #content #content-bio, #news #content #content-stats {
+.bold {
+  font-weight: bold; }
+
+.green {
+  color: #19BD9A; }
+
+#team #team-h2, #testimonials h2, #price h2, #subscribe h2, #contacts h2, footer h2, .projects .img-gallery__text, #services h2, #impressed #impressed-text h2, #portfolio h2, #portfolio #portfolio-photos .portfolio-photos-column #portfolio-photos-text h3, #team #team-main #team-main-text #team-main-text-occup, #team #team-main #team-main-text .team-main-text-diagr .team-main-text-diagr-text, #news #content h2, #news #content #content-bio, #news #content #content-stats {
   font-family: SourceSansProLight, arial;
   font-weight: lighter;
   font-size: 20px; }
@@ -38,22 +44,22 @@
   margin-top: 28px;
   line-height: 25px; }
 
-#team #team-first-text, #testimonials p, #price #price-text, #subscribe p, #contacts #contacts-text, footer p, #bouncy #bouncy-text p, #details-bouncy #details-bouncy-underh2, #details-bouncy #details-bouncy-text-left, #details-bouncy #details-bouncy-text-right, #projects #projects-text p, #projects #projects-banner #projects-banner-text, #projects #projects-banner #projects-banner-button, #services #services-text, #services #services-left #services-left-text h3, #services #services-left #services-left-text p, #impressed #impressed-text #impressed-text-1, #impressed #impressed-text #impressed-text-2, #portfolio p, #portfolio ul li, #portfolio #portfolio-photos .portfolio-photos-column #portfolio-photos-text p, #portfolio #portfolio-banner p, .button, #team #team-main #team-main-text #team-main-text-name, #team #team-main #team-main-text #team-main-text-text, #contact-us h2, #testimonials #testimonials-main #testimonials-main-text #testimonials-main-text-bio, #news #content #content-text-main, #news #content #content-h3, #news #content #content-text-second, #news #content #content-read-more, #price #price-blocks .price-block .price-block-time, #price #price-blocks .price-block .price-block-footer, #price #price-blocks ul li, #subscribe #subscribe-form #subscribe-form-text::-webkit-input-placeholder, #subscribe #subscribe-form #subscribe-form-submit, #contacts #contacts-cards .contacts-cards-card .contacts-card-name, #contacts #contacts-cards .contacts-cards-card .contacts-card-adress, #contacts #contacts-cards .contacts-cards-card #contacts-card-phone, #contacts #contacts-cards .contacts-cards-card #contacts-card-adress, #message #message-block-mini .message-mini-area, #message #message-button input, #map #map-black-block #map-black-block-text {
+#team #team-first-text, #testimonials p, #price #price-text, #subscribe p, #contacts #contacts-text, footer p, .big-button, .details-bouncy__text-left, .details-bouncy__text-right, .projects .projects__banner .banner__text, .projects .projects__banner .banner__button, #services #services-text, #services #services-left #services-left-text h3, #services #services-left #services-left-text p, #impressed #impressed-text #impressed-text-1, #impressed #impressed-text #impressed-text-2, #portfolio p, #portfolio ul li, #portfolio #portfolio-photos .portfolio-photos-column #portfolio-photos-text p, #portfolio #portfolio-banner p, .button, #team #team-main #team-main-text #team-main-text-name, #team #team-main #team-main-text #team-main-text-text, #contact-us h2, #testimonials #testimonials-main #testimonials-main-text #testimonials-main-text-bio, #news #content #content-text-main, #news #content #content-h3, #news #content #content-text-second, #news #content #content-read-more, #price #price-blocks .price-block .price-block-time, #price #price-blocks .price-block .price-block-footer, #price #price-blocks ul li, #subscribe #subscribe-form #subscribe-form-text::-webkit-input-placeholder, #subscribe #subscribe-form #subscribe-form-submit, #contacts #contacts-cards .contacts-cards-card .contacts-card-name, #contacts #contacts-cards .contacts-cards-card .contacts-card-adress, #contacts #contacts-cards .contacts-cards-card #contacts-card-phone, #contacts #contacts-cards .contacts-cards-card #contacts-card-adress, #message #message-block-mini .message-mini-area, #message #message-button input, #map #map-black-block #map-black-block-text {
   font-family: OpenSans, arial;
   font-size: 14px;
   letter-spacing: 0.7px; }
 
-#team #team-first-text, #testimonials p, #price #price-text, #subscribe p, #contacts #contacts-text, footer p, #bouncy #bouncy-text p, #details-bouncy #details-bouncy-underh2, #details-bouncy #details-bouncy-text-left, #details-bouncy #details-bouncy-text-right, #projects #projects-text p, #projects #projects-banner #projects-banner-text, #projects #projects-banner #projects-banner-button, #services #services-text, #services #services-left #services-left-text h3, #services #services-left #services-left-text p, #impressed #impressed-text #impressed-text-1, #impressed #impressed-text #impressed-text-2, #portfolio p, #portfolio ul li, #portfolio #portfolio-photos .portfolio-photos-column #portfolio-photos-text p, #portfolio #portfolio-banner p, .button, #team #team-main #team-main-text #team-main-text-name, #team #team-main #team-main-text #team-main-text-text, #contact-us h2, #testimonials #testimonials-main #testimonials-main-text #testimonials-main-text-bio, #news #content #content-text-main, #news #content #content-h3, #news #content #content-text-second, #news #content #content-read-more, #price #price-blocks .price-block .price-block-time, #price #price-blocks .price-block .price-block-footer, #price #price-blocks ul li, #subscribe #subscribe-form #subscribe-form-text:-ms-input-placeholder, #subscribe #subscribe-form #subscribe-form-submit, #contacts #contacts-cards .contacts-cards-card .contacts-card-name, #contacts #contacts-cards .contacts-cards-card .contacts-card-adress, #contacts #contacts-cards .contacts-cards-card #contacts-card-phone, #contacts #contacts-cards .contacts-cards-card #contacts-card-adress, #message #message-block-mini .message-mini-area, #message #message-button input, #map #map-black-block #map-black-block-text {
+#team #team-first-text, #testimonials p, #price #price-text, #subscribe p, #contacts #contacts-text, footer p, .big-button, .details-bouncy__text-left, .details-bouncy__text-right, .projects .projects__banner .banner__text, .projects .projects__banner .banner__button, #services #services-text, #services #services-left #services-left-text h3, #services #services-left #services-left-text p, #impressed #impressed-text #impressed-text-1, #impressed #impressed-text #impressed-text-2, #portfolio p, #portfolio ul li, #portfolio #portfolio-photos .portfolio-photos-column #portfolio-photos-text p, #portfolio #portfolio-banner p, .button, #team #team-main #team-main-text #team-main-text-name, #team #team-main #team-main-text #team-main-text-text, #contact-us h2, #testimonials #testimonials-main #testimonials-main-text #testimonials-main-text-bio, #news #content #content-text-main, #news #content #content-h3, #news #content #content-text-second, #news #content #content-read-more, #price #price-blocks .price-block .price-block-time, #price #price-blocks .price-block .price-block-footer, #price #price-blocks ul li, #subscribe #subscribe-form #subscribe-form-text:-ms-input-placeholder, #subscribe #subscribe-form #subscribe-form-submit, #contacts #contacts-cards .contacts-cards-card .contacts-card-name, #contacts #contacts-cards .contacts-cards-card .contacts-card-adress, #contacts #contacts-cards .contacts-cards-card #contacts-card-phone, #contacts #contacts-cards .contacts-cards-card #contacts-card-adress, #message #message-block-mini .message-mini-area, #message #message-button input, #map #map-black-block #map-black-block-text {
   font-family: OpenSans, arial;
   font-size: 14px;
   letter-spacing: 0.7px; }
 
-#team #team-first-text, #testimonials p, #price #price-text, #subscribe p, #contacts #contacts-text, footer p, #bouncy #bouncy-text p, #details-bouncy #details-bouncy-underh2, #details-bouncy #details-bouncy-text-left, #details-bouncy #details-bouncy-text-right, #projects #projects-text p, #projects #projects-banner #projects-banner-text, #projects #projects-banner #projects-banner-button, #services #services-text, #services #services-left #services-left-text h3, #services #services-left #services-left-text p, #impressed #impressed-text #impressed-text-1, #impressed #impressed-text #impressed-text-2, #portfolio p, #portfolio ul li, #portfolio #portfolio-photos .portfolio-photos-column #portfolio-photos-text p, #portfolio #portfolio-banner p, .button, #team #team-main #team-main-text #team-main-text-name, #team #team-main #team-main-text #team-main-text-text, #contact-us h2, #testimonials #testimonials-main #testimonials-main-text #testimonials-main-text-bio, #news #content #content-text-main, #news #content #content-h3, #news #content #content-text-second, #news #content #content-read-more, #price #price-blocks .price-block .price-block-time, #price #price-blocks .price-block .price-block-footer, #price #price-blocks ul li, #subscribe #subscribe-form #subscribe-form-text::-ms-input-placeholder, #subscribe #subscribe-form #subscribe-form-submit, #contacts #contacts-cards .contacts-cards-card .contacts-card-name, #contacts #contacts-cards .contacts-cards-card .contacts-card-adress, #contacts #contacts-cards .contacts-cards-card #contacts-card-phone, #contacts #contacts-cards .contacts-cards-card #contacts-card-adress, #message #message-block-mini .message-mini-area, #message #message-button input, #map #map-black-block #map-black-block-text {
+#team #team-first-text, #testimonials p, #price #price-text, #subscribe p, #contacts #contacts-text, footer p, .big-button, .details-bouncy__text-left, .details-bouncy__text-right, .projects .projects__banner .banner__text, .projects .projects__banner .banner__button, #services #services-text, #services #services-left #services-left-text h3, #services #services-left #services-left-text p, #impressed #impressed-text #impressed-text-1, #impressed #impressed-text #impressed-text-2, #portfolio p, #portfolio ul li, #portfolio #portfolio-photos .portfolio-photos-column #portfolio-photos-text p, #portfolio #portfolio-banner p, .button, #team #team-main #team-main-text #team-main-text-name, #team #team-main #team-main-text #team-main-text-text, #contact-us h2, #testimonials #testimonials-main #testimonials-main-text #testimonials-main-text-bio, #news #content #content-text-main, #news #content #content-h3, #news #content #content-text-second, #news #content #content-read-more, #price #price-blocks .price-block .price-block-time, #price #price-blocks .price-block .price-block-footer, #price #price-blocks ul li, #subscribe #subscribe-form #subscribe-form-text::-ms-input-placeholder, #subscribe #subscribe-form #subscribe-form-submit, #contacts #contacts-cards .contacts-cards-card .contacts-card-name, #contacts #contacts-cards .contacts-cards-card .contacts-card-adress, #contacts #contacts-cards .contacts-cards-card #contacts-card-phone, #contacts #contacts-cards .contacts-cards-card #contacts-card-adress, #message #message-block-mini .message-mini-area, #message #message-button input, #map #map-black-block #map-black-block-text {
   font-family: OpenSans, arial;
   font-size: 14px;
   letter-spacing: 0.7px; }
 
-#team #team-first-text, #testimonials p, #price #price-text, #subscribe p, #contacts #contacts-text, footer p, #bouncy #bouncy-text p, #details-bouncy #details-bouncy-underh2, #details-bouncy #details-bouncy-text-left, #details-bouncy #details-bouncy-text-right, #projects #projects-text p, #projects #projects-banner #projects-banner-text, #projects #projects-banner #projects-banner-button, #services #services-text, #services #services-left #services-left-text h3, #services #services-left #services-left-text p, #impressed #impressed-text #impressed-text-1, #impressed #impressed-text #impressed-text-2, #portfolio p, #portfolio ul li, #portfolio #portfolio-photos .portfolio-photos-column #portfolio-photos-text p, #portfolio #portfolio-banner p, .button, #team #team-main #team-main-text #team-main-text-name, #team #team-main #team-main-text #team-main-text-text, #contact-us h2, #testimonials #testimonials-main #testimonials-main-text #testimonials-main-text-bio, #news #content #content-text-main, #news #content #content-h3, #news #content #content-text-second, #news #content #content-read-more, #price #price-blocks .price-block .price-block-time, #price #price-blocks .price-block .price-block-footer, #price #price-blocks ul li, #subscribe #subscribe-form #subscribe-form-text::placeholder, #subscribe #subscribe-form #subscribe-form-submit, #contacts #contacts-cards .contacts-cards-card .contacts-card-name, #contacts #contacts-cards .contacts-cards-card .contacts-card-adress, #contacts #contacts-cards .contacts-cards-card #contacts-card-phone, #contacts #contacts-cards .contacts-cards-card #contacts-card-adress, #message #message-block-mini .message-mini-area, #message #message-button input, #map #map-black-block #map-black-block-text {
+#team #team-first-text, #testimonials p, #price #price-text, #subscribe p, #contacts #contacts-text, footer p, .big-button, .details-bouncy__text-left, .details-bouncy__text-right, .projects .projects__banner .banner__text, .projects .projects__banner .banner__button, #services #services-text, #services #services-left #services-left-text h3, #services #services-left #services-left-text p, #impressed #impressed-text #impressed-text-1, #impressed #impressed-text #impressed-text-2, #portfolio p, #portfolio ul li, #portfolio #portfolio-photos .portfolio-photos-column #portfolio-photos-text p, #portfolio #portfolio-banner p, .button, #team #team-main #team-main-text #team-main-text-name, #team #team-main #team-main-text #team-main-text-text, #contact-us h2, #testimonials #testimonials-main #testimonials-main-text #testimonials-main-text-bio, #news #content #content-text-main, #news #content #content-h3, #news #content #content-text-second, #news #content #content-read-more, #price #price-blocks .price-block .price-block-time, #price #price-blocks .price-block .price-block-footer, #price #price-blocks ul li, #subscribe #subscribe-form #subscribe-form-text::placeholder, #subscribe #subscribe-form #subscribe-form-submit, #contacts #contacts-cards .contacts-cards-card .contacts-card-name, #contacts #contacts-cards .contacts-cards-card .contacts-card-adress, #contacts #contacts-cards .contacts-cards-card #contacts-card-phone, #contacts #contacts-cards .contacts-cards-card #contacts-card-adress, #message #message-block-mini .message-mini-area, #message #message-button input, #map #map-black-block #map-black-block-text {
   font-family: OpenSans, arial;
   font-size: 14px;
   letter-spacing: 0.7px; }
@@ -68,242 +74,290 @@ header {
   position: absolute;
   z-index: 4;
   margin: 0; }
-  header p {
-    font-family: BoldiniBold, arial;
-    font-size: 32px;
-    color: white;
-    margin-left: 97px;
-    margin-top: 28px;
-    float: left; }
-  header ul {
-    margin-left: 678px;
-    margin-top: 40px; }
-    header ul li {
-      display: table-cell;
-      list-style-type: none;
-      width: 80px;
-      float: left;
-      text-align: center;
-      margin-left: 2px;
-      height: 29px;
-      border-radius: 20px;
-      line-height: 26px;
-      border: 1px solid transparent;
-      -webkit-box-sizing: border-box;
-              box-sizing: border-box;
-      z-index: 4; }
-      header ul li a {
-        text-decoration: none;
-        color: white;
-        font-size: 16px;
-        font-family: OpenSans, arial;
-        -webkit-box-sizing: border-box;
-                box-sizing: border-box; }
-    header ul li:hover {
-      border: 1px solid white; }
-    header ul #about-link {
-      width: 82px; }
-    header ul #services-link {
-      width: 76px; }
-    header ul #portfolio-link {
-      width: 103px; }
-    header ul #team-link {
-      width: 59px; }
-    header ul #blog-link {
-      width: 68px; }
-    header ul #contact-link {
-      width: 77px; }
 
-#scroller {
+.logo {
+  font-family: BoldiniBold, arial;
+  font-size: 32px;
+  color: white; }
+
+.header__logo {
+  margin-left: 97px;
+  margin-top: 28px;
+  float: left; }
+
+.header__nav {
+  margin-left: 678px;
+  margin-top: 40px; }
+
+.nav__nav-link {
+  display: table-cell;
+  list-style-type: none;
+  width: 80px;
+  float: left;
+  text-align: center;
+  margin-left: 2px;
+  height: 29px;
+  border-radius: 20px;
+  line-height: 26px;
+  border: 1px solid transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 4; }
+
+.nav__link {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-family: OpenSans, arial;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.nav__nav-link:hover {
+  border: 1px solid white; }
+
+.nav__nav-link_about {
+  width: 82px; }
+
+.nav__nav-link_services {
+  width: 76px; }
+
+.nav__nav-link_portfolio {
+  width: 103px; }
+
+.nav__nav-link_team {
+  width: 59px; }
+
+.nav__nav-link_blog {
+  width: 68px; }
+
+.nav__nav-link_contact {
+  width: 77px; }
+
+.scroller {
   height: 750px;
-  width: 1370px; }
-  #scroller #scroller-image {
-    position: absolute;
-    height: inherit;
-    width: 1370px;
-    background-image: url("../img/scroller.png");
-    background-position: bottom;
-    z-index: 1; }
-  #scroller #scroller-black {
-    position: absolute;
-    height: inherit;
-    width: 1370px;
-    background-color: black;
-    opacity: 0.35;
-    z-index: 2; }
-  #scroller #scroller-text {
-    position: absolute;
-    height: inherit;
-    width: 1370px;
-    color: white;
-    z-index: 3; }
-    #scroller #scroller-text h1 {
-      text-align: center;
-      margin-top: 282px;
-      margin-bottom: 27px;
-      font-size: 35px;
-      font-family: SourceSansProLight, arial;
-      font-weight: lighter; }
-    #scroller #scroller-text p {
-      text-align: center;
-      font-family: OpenSans, arial;
-      font-size: 16px;
-      letter-spacing: 0.8px;
-      line-height: 29px;
-      width: 610px;
-      margin-left: auto;
-      margin-right: auto; }
-    #scroller #scroller-text #scroller-button-down {
-      height: 37px;
-      width: 37px;
-      border-radius: 50%;
-      background-color: #19BD9A;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 214px;
-      cursor: pointer; }
-    #scroller #scroller-text #scroller-button-down-arrow {
-      -webkit-transform: rotate(135deg);
-              transform: rotate(135deg);
-      border: 1px solid white;
-      height: 7px;
-      width: 7px;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: -23px;
-      border-bottom: none;
-      border-left: none; }
+  width: 1370px;
+  overflow: auto;
+  background-image: url("../img/scroller.png");
+  background-position: bottom right; }
 
-#bouncy {
+.text-block {
+  width: 1370px; }
+
+.scroller__text-block {
+  margin-top: 282px; }
+
+.text-block__h {
+  text-align: center;
+  font-size: 20px;
+  font-family: SourceSansProLight, arial;
+  font-weight: lighter;
+  margin-bottom: 27px;
+  letter-spacing: 4px;
+  margin-top: 0;
+  color: black; }
+
+.text-block__h_scroller {
+  font-size: 35px;
+  letter-spacing: 7px;
+  color: white; }
+
+.text-block__p {
+  text-align: center;
+  font-family: OpenSans, arial;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #81868E; }
+
+.text-block__p_scroller {
+  line-height: 29px;
+  width: 610px;
+  color: white; }
+
+.green-button {
+  height: 37px;
+  width: 37px;
+  border-radius: 50%;
+  background-color: #19BD9A;
+  cursor: pointer; }
+
+.scroller__green-button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 214px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.green-button__arrow-down {
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+  border: 1px solid white;
+  height: 7px;
+  width: 7px;
+  border-bottom: none;
+  border-left: none; }
+
+.bouncy {
   height: 488px;
   background-color: white;
   margin-top: -12px;
   position: relative;
-  z-index: 4; }
-  #bouncy #bouncy-text {
-    width: 471px;
-    height: 305px;
-    float: left;
-    margin-left: 265px;
-    margin-top: 90px; }
-    #bouncy #bouncy-text h2 {
-      letter-spacing: 0.4px;
-      margin-left: 2px;
-      margin-top: 16px; }
-    #bouncy #bouncy-text p {
-      line-height: 25px;
-      margin-top: 40px; }
-    #bouncy #bouncy-text #bouncy-button {
-      width: 140px;
-      height: 37px;
-      font-family: OpenSans, arial;
-      font-size: 16px;
-      border: 1px solid black;
-      border-radius: 25px;
-      text-align: center;
-      line-height: 37px;
-      margin-top: 26px;
-      cursor: pointer; }
-  #bouncy #bouncy-img {
-    width: 215px;
-    height: 350px;
-    margin-left: 161px;
-    margin-top: 77px; }
+  z-index: 2; }
 
-#details-bouncy {
+.bouncy__text-block {
+  width: 471px;
+  height: 305px;
+  float: left;
+  margin-left: 265px;
+  margin-top: 90px; }
+
+.text-block__h_bouncy {
+  font-size: 20px;
+  margin-left: 2px;
+  margin-top: 16px;
+  letter-spacing: 4px;
+  text-align: left; }
+
+.text-block__p_bouncy {
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  text-align: left;
+  line-height: 25px;
+  margin-top: 40px;
+  color: #81868E; }
+
+.big-button {
+  width: 140px;
+  height: 35px;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 25px;
+  text-align: center;
+  line-height: 37px;
+  letter-spacing: 0.1px;
+  cursor: pointer; }
+
+.bouncy__big-button {
+  margin-top: 29px; }
+
+.bouncy__img {
+  width: 215px;
+  height: 350px;
+  margin-left: 161px;
+  margin-top: 77px; }
+
+.details-bouncy {
   height: 615px;
   background-color: #F3F3F3;
   overflow: auto; }
-  #details-bouncy h2 {
-    text-align: center;
-    margin-top: 72px;
-    letter-spacing: 0.2px; }
-  #details-bouncy #details-bouncy-underh2 {
-    text-align: center;
+  .details-bouncy .text-block__h_details-bouncy {
+    margin-top: 72px; }
+  .details-bouncy .text-block__p_details-bouncy {
     width: 470px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 14px;
     margin-top: 30px;
     line-height: 24px; }
-  #details-bouncy #details-bouncy-markers {
-    width: 216px;
-    height: 53px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 58px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    cursor: pointer; }
-    #details-bouncy #details-bouncy-markers div {
-      height: 53px;
-      width: 53px;
-      border-radius: 50%;
-      background-color: #81868E;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; }
-      #details-bouncy #details-bouncy-markers div img {
-        height: 27px;
-        width: 27px; }
-    #details-bouncy #details-bouncy-markers div:hover {
-      background-color: #19BD9A; }
-  #details-bouncy #details-bouncy-text-left {
-    float: left;
-    width: 330px;
-    height: 180px;
-    margin-left: 168px;
-    margin-top: 34px; }
-    #details-bouncy #details-bouncy-text-left h3 {
-      font-size: 20px;
-      font-weight: normal; }
-    #details-bouncy #details-bouncy-text-left p {
-      margin-top: 30px;
-      letter-spacing: 1.9px;
-      line-height: 28px; }
-  #details-bouncy #details-bouncy-text-right {
-    float: left;
-    width: 522px;
-    height: 180px;
-    margin-left: 122px;
-    margin-top: 109px;
-    line-height: 25px; }
 
-.bold {
-  font-weight: bold; }
+.markers-block {
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer; }
 
-.green {
-  color: #19BD9A; }
+.details-bouncy__markers-block {
+  width: 216px;
+  height: 53px;
+  margin-top: 58px; }
 
-#projects {
+.markers-block__marker {
+  height: 53px;
+  width: 53px;
+  border-radius: 50%;
+  background-color: #81868E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.markers-block__image {
+  height: 27px;
+  width: 27px; }
+
+.markers-block__marker:hover {
+  background-color: #19BD9A; }
+
+.markers-block__image_l {
+  background-image: url("../img/heart.png"); }
+
+.markers-block__image_m {
+  background-image: url("../img/mouse.png"); }
+
+.markers-block__image_r {
+  background-image: url("../img/lamp.png"); }
+
+.details-bouncy__text-left {
+  float: left;
+  width: 330px;
+  height: 180px;
+  margin-left: 168px;
+  margin-top: 38px; }
+
+.text-left__h3 {
+  font-size: 20px;
+  font-weight: normal; }
+
+.text-left__p {
+  margin-top: 30px;
+  letter-spacing: 1.9px;
+  line-height: 28px; }
+
+.details-bouncy__text-right {
+  float: left;
+  width: 522px;
+  height: 180px;
+  margin-left: 122px;
+  margin-top: 109px;
+  line-height: 25px; }
+
+.projects {
   height: 590px; }
-  #projects #projects-text {
-    height: 159px; }
-    #projects #projects-text h3 {
-      text-align: center;
+  .projects .projects__text-block {
+    height: 159px;
+    margin-top: 76px; }
+    .projects .projects__text-block .text-block__h-projects {
       font-size: 21px;
-      font-weight: lighter;
-      margin-top: 76px;
-      letter-spacing: -0.3px; }
-    #projects #projects-text p {
+      letter-spacing: 3.5px; }
+    .projects .projects__text-block .text-block__p-projects {
       width: 465px;
-      text-align: center;
       margin-left: auto;
       margin-right: auto;
       margin-top: 29px;
-      line-height: 24px; }
-  #projects #projects-img {
+      line-height: 24px;
+      font-size: 14px;
+      letter-spacing: 0.7px; }
+  .projects .projects__img-gallery {
     height: 319px; }
-    #projects #projects-img div {
+    .projects .projects__img-gallery .img-gallery__img {
       float: left;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -314,46 +368,40 @@ header {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
-    #projects #projects-img #projects-img-1 {
+    .projects .projects__img-gallery .img-gallery__img_l {
       width: 701px;
       height: 319px;
       background-image: url("../img/work1.png"); }
-    #projects #projects-img #projects-img-2 {
+    .projects .projects__img-gallery .img-gallery__img_m {
       margin-left: -1px;
       width: 336px;
       height: 319px;
       background-image: url("../img/project2.png"); }
-    #projects #projects-img #projects-img-3 {
+    .projects .projects__img-gallery .img-gallery__img_r {
       margin-left: -2px;
       width: 334px;
       height: 319px;
       background-image: url("../img/project3.png"); }
-  #projects #vintage {
+  .projects .img-gallery__text {
     color: white;
     font-weight: normal; }
-  #projects #branding {
-    color: white;
-    font-weight: normal; }
-  #projects #projects-banner {
+  .projects .projects__banner {
     height: 113px;
     background-image: url("../img/banner.png");
     overflow: auto; }
-    #projects #projects-banner #projects-banner-text {
+    .projects .projects__banner .banner__text {
       color: white;
       margin-top: 43px;
       margin-left: 170px;
       font-size: 20px;
       float: left;
       letter-spacing: 0.9px; }
-    #projects #projects-banner #projects-banner-button {
+    .projects .projects__banner .banner__button {
       width: 140px;
       height: 37px;
-      margin-left: 50px;
       color: white;
       float: left;
       border: 1px solid white;
-      margin-left: 139px;
-      margin-top: 37px;
       border-radius: 21px;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -366,6 +414,9 @@ header {
               align-items: center;
       font-size: 15px;
       cursor: pointer; }
+    .projects .projects__banner .banner__button_projects {
+      margin-left: 139px;
+      margin-top: 37px; }
 
 #services {
   height: 638px;
@@ -1155,13 +1206,13 @@ header {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.contacts__bg-l {
-  background-image: url("../img/email.png"); }
+.contacts__bg_l {
+  background_image: url("../img/email.png"); }
 
-.contacts__bg-m {
+.contacts__bg_m {
   background-image: url("../img/adress.png"); }
 
-.contacts__bg-r {
+.contacts__bg_r {
   background-image: url("../img/phone.png"); }
 
 .contacts__marker {
@@ -1169,13 +1220,13 @@ header {
   width: 50px;
   z-index: 4; }
 
-.contacts__marker-l {
+.contacts__marker_l {
   background-image: url("../img/letter.png"); }
 
-.contacts__marker-m {
+.contacts__marker_m {
   background-image: url("../img/placeholder.png"); }
 
-.contacts__marker-r {
+.contacts__marker_r {
   background-image: url("../img/telephone.png");
   height: 45px;
   width: 45px; }

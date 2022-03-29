@@ -10,57 +10,69 @@
 </head>
 <body>
 <header>
-    <p>BOUNCY</p>
-    <ul>
-        <li id="hello-link"><a href="#scroller">Hello</a></li>
-        <li id="about-link"><a href="#details-bouncy">About</a></li>
-        <li id="services-link"><a href="#services">Services</a></li>
-        <li id="portfolio-link"><a href="#portfolio">Portfolio</a></li>
-        <li id="team-link"><a href="#team">Team</a></li>
-        <li id="blog-link"><a href="#">Blog</a></li>
-        <li id="contact-link"><a href="#">Contact</a></li>
+    <p class="logo header__logo">BOUNCY</p>
+    <ul class="nav header__nav">
+        <li class="nav__nav-link nav__nav-link_hello"><a class="nav__link" href="#scroller">Hello</a></li>
+        <li class="nav__nav-link nav__nav-link_about"><a class="nav__link" href="#details-bouncy">About</a></li>
+        <li class="nav__nav-link nav__nav-link_services"><a class="nav__link" href="#services">Services</a></li>
+        <li class="nav__nav-link nav__nav-link_portfolio"><a class="nav__link" href="#portfolio">Portfolio</a></li>
+        <li class="nav__nav-link nav__nav-link_team"><a class="nav__link" href="#team">Team</a></li>
+        <li class="nav__nav-link nav__nav-link_blog"><a class="nav__link" href="#">Blog</a></li>
+        <li class="nav__nav-link nav__nav-link_contact"><a class="nav__link" href="#">Contact</a></li>
     </ul>
 </header>
 <main>
-    <section id="scroller">
-        <div id="scroller-image"></div>
-        <div id="scroller-black"></div>
-        <div id="scroller-text">
-            <h1>W E&nbsp;&nbsp;&nbsp;A R E&nbsp;&nbsp;&nbsp;C O D E&nbsp;&nbsp;&nbsp;C A F E</h1>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
-            <div id="scroller-button-down"></div>
-            <div id="scroller-button-down-arrow"></div>
+    <section class="scroller">
+        <div class="text-block scroller__text-block">
+            <h1 class="text-block__h text-block__h_scroller">WE ARE CODE CAFE</h1>
+            <p class="text-block__p text-block__p_scroller">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+        </div>
+        <div class="green-button scroller__green-button">
+            <div class="green-button__arrow-down"></div>
         </div>
     </section>
-    <section id="bouncy">
-        <section id="bouncy-text">
-            <h2>T H I S&nbsp;&nbsp;I S&nbsp;&nbsp;B O U N C Y</h2>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. </p>
-            <div id="bouncy-button">Read More</div>
+    <section class="bouncy">
+        <section class="text-block bouncy__text-block">
+            <h2 class="text-block__h text-block__h_bouncy">THIS IS BOUNCY</h2>
+            <p class="text-block__p text-block__p_bouncy">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. </p>
+            <div class="big-button bouncy__big-button">Read More</div>
         </section>
-        <img id="bouncy-img" src="img/Layer4.png" alt="">
+        <img class="bouncy__img" src="img/Layer4.png" alt="">
     </section>
-    <section id="details-bouncy">
-        <h2>D E T A I L S&nbsp;&nbsp;A B O U T&nbsp;&nbsp;B O U N C Y</h2>
-        <p id="details-bouncy-underh2">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
-        <div id="details-bouncy-markers">
-            <div id="details-bouncy-marker1"><img src="img/heart.png" alt=""></div>
-            <div id="details-bouncy-marker2"><img src="img/mouse.png" alt=""></div>
-            <div id="details-bouncy-marker3"><img src="img/lamp.png" alt=""></div>
+    <section class="details-bouncy">
+        <div class="text-block details-bouncy__text-block" >
+            <h2 class="text-block__h text-block__h_details-bouncy">DETAILS ABOUT BOUNCY</h2>
+            <p  class="text-block__p text-block__p_details-bouncy">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
         </div>
-        <div id="details-bouncy-text-left">
-            <h3>Creative Ideas</h3>
-            <p>At <span class="green bold">vero</span> eos et accusamus et iusto odio dignissimos <span class="bold">ducimus</span> qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores </p>
+        <div class="markers-block details-bouncy__markers-block">
+            <div class="markers-block__marker"><div class="markers-block__image markers-block__image_l"></div></div>
+            <div class="markers-block__marker"><div class="markers-block__image markers-block__image_m"></div></div>
+            <div class="markers-block__marker"><div class="markers-block__image markers-block__image_r"></div></div>
         </div>
-        <div id="details-bouncy-text-right">At vero eos et accusamus et iusto odio dignissimos ducimus qui blan- ditiis praesentium voluptatum deleniti atque <span class="bold">corrupti quos</span> dolores et quas molestias <span class="green bold">excepturi</span> sint occaecati cupiditate non provident, <span class="bold">simi- lique</span> sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem r</div>
+        <div class="text-left details-bouncy__text-left">
+            <h3 class="text-left__h3">Creative Ideas</h3>
+            <p class="text-left__p">At <span class="green bold">vero</span> eos et accusamus et iusto odio dignissimos <span class="bold">ducimus</span> qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores </p>
+        </div>
+        <div class="text-right details-bouncy__text-right">At vero eos et accusamus et iusto odio dignissimos ducimus qui blan- ditiis praesentium voluptatum deleniti atque <span class="bold">corrupti quos</span> dolores et quas molestias <span class="green bold">excepturi</span> sint occaecati cupiditate non provident, <span class="bold">simi- lique</span> sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem r</div>
     </section>
-    <section id="projects">
-        <section id="projects-text">
-            <h3>F E A T U R E D&nbsp;&nbsp;&nbsp;P R O J E C T S</h3>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
-        </section>
-        <section id="projects-img"><div id="projects-img-1"></div><div id="projects-img-2"><p id="vintage">V I N T A G E</p></div><div id="projects-img-3"><p id="branding">B R A N D I N G</p></div></section>
-        <section id="projects-banner"><p id="projects-banner-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p><div id="projects-banner-button">Submit Now</div></section>
+    <section class="projects">
+        <div class="text-block projects__text-block">
+            <h3 class="text-block__h text-block__h-projects">FEATURED PROJECTS</h3>
+            <p class="text-block__p text-block__p-projects">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+        </div>
+        <div class="img-gallery projects__img-gallery">
+            <div class="img-gallery__img img-gallery__img_l"></div>
+            <div class="img-gallery__img img-gallery__img_m">
+                <p class="img-gallery__text">V I N T A G E</p>
+            </div>
+            <div class="img-gallery__img img-gallery__img_r">
+                <p class="img-gallery__text">B R A N D I N G</p>
+            </div>
+        </div>
+        <div class="banner projects__banner">
+            <p class="banner__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            <div class="banner__button banner__button_projects">Submit Now</div>
+        </div>
     </section>
     <section id="services">
         <h2>O U R&nbsp;&nbsp;&nbsp;S E R V I C E S</h2>
@@ -274,23 +286,23 @@
         <p id="contacts-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
         <div id="contacts-cards">
             <div class="contacts-cards-card">
-                <div class="contacts__bg contacts__bg-l">
-                    <div class="contacts__marker contacts__marker-l"></div>
+                <div class="contacts__bg contacts__bg_l">
+                    <div class="contacts__marker contacts__marker_l"></div>
                 </div>
                 <h3 class="contacts-card-name">EMAIL</h3>
                 <p class="contacts-card-adress" id="contacts-card-adress1"><a href="mailto:hello@codecafe.com">HELLO@CODECAFE.COM</a></p>
                 <p class="contacts-card-adress" id="contacts-card-adress2"><a href="mailto:personal@codecafe.com">PERSONAL@CODECAFE.COM</a></p>
             </div>
             <div class="contacts-cards-card">
-                <div class="contacts__bg contacts__bg-m">
-                    <div class="contacts__marker contacts__marker-m"></div>
+                <div class="contacts__bg contacts__bg_m">
+                    <div class="contacts__marker contacts__marker_m"></div>
                 </div>
                 <h3 class="contacts-card-name">OUR OFFICE</h3>
                 <p id="contacts-card-adress">240 BHATIKHANA, 8200 BARISAL BANGLADESH</p>
             </div>
             <div class="contacts-cards-card">
-                <div class="contacts__bg contacts__bg-r">
-                    <div class="contacts__marker contacts__marker-r"></div>
+                <div class="contacts__bg contacts__bg_r">
+                    <div class="contacts__marker contacts__marker_r"></div>
                 </div>
                 <h3 class="contacts-card-name">PHONE</h3>
                 <p id=contacts-card-phone><a href="tel:+00116699664411996644065">+00 11 66 99 66 44 11 99 66 44 065</a></p>

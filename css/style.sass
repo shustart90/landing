@@ -1,5 +1,10 @@
 @import "fonts"
 
+.bold
+  font-weight: bold
+.green
+  color: #19BD9A
+
 %h2-preset
   font-family: SourceSansProLight, arial
   font-weight: lighter
@@ -35,263 +40,265 @@ header
   position: absolute
   z-index: 4
   margin: 0
-  p
-    font-family: BoldiniBold, arial
-    font-size: 32px
-    color: white
-    margin-left: 97px
-    margin-top: 28px
-    float: left
-  ul
-    margin-left: 678px
-    margin-top: 40px
-    li
-      display: table-cell
-      list-style-type: none
-      width: 80px
-      float: left
-      text-align: center
-      margin-left: 2px
-      height: 29px
-      border-radius: 20px
-      line-height: 26px
-      border: 1px solid transparent
-      box-sizing: border-box
-      z-index: 4
-      a
-        text-decoration: none
-        color: white
-        font-size: 16px
-        font-family: OpenSans, arial
-        box-sizing: border-box
-    li:hover
-      border: 1px solid white
-    #about-link
-      width: 82px
-    #services-link
-      width: 76px
-    #portfolio-link
-      width: 103px
-    #team-link
-      width: 59px
-    #blog-link
-      width: 68px
-    #contact-link
-      width: 77px
-#scroller
+
+.logo
+  font-family: BoldiniBold, arial
+  font-size: 32px
+  color: white
+
+.header__logo
+  margin-left: 97px
+  margin-top: 28px
+  float: left
+
+.header__nav
+  margin-left: 678px
+  margin-top: 40px
+
+.nav__nav-link
+  display: table-cell
+  list-style-type: none
+  width: 80px
+  float: left
+  text-align: center
+  margin-left: 2px
+  height: 29px
+  border-radius: 20px
+  line-height: 26px
+  border: 1px solid transparent
+  box-sizing: border-box
+  z-index: 4
+.nav__link
+  text-decoration: none
+  color: white
+  font-size: 16px
+  font-family: OpenSans, arial
+  box-sizing: border-box
+.nav__nav-link:hover
+  border: 1px solid white
+.nav__nav-link_about
+  width: 82px
+.nav__nav-link_services
+  width: 76px
+.nav__nav-link_portfolio
+  width: 103px
+.nav__nav-link_team
+  width: 59px
+.nav__nav-link_blog
+  width: 68px
+.nav__nav-link_contact
+  width: 77px
+.scroller
   height: 750px
   width: 1370px
-  #scroller-image
-    position: absolute
-    height: inherit
-    width: 1370px
-    background-image: url("../img/scroller.png")
-    background-position: bottom
-    z-index: 1
-  #scroller-black
-    position: absolute
-    height: inherit
-    width: 1370px
-    background-color: black
-    opacity: 0.35
-    z-index: 2
-  #scroller-text
-    position: absolute
-    height: inherit
-    width: 1370px
-    color: white
-    z-index: 3
-    h1
-      text-align: center
-      margin-top: 282px
-      margin-bottom: 27px
-      font-size: 35px
-      font-family: SourceSansProLight, arial
-      font-weight: lighter
-    p
-      text-align: center
-      font-family: OpenSans, arial
-      font-size: 16px
-      letter-spacing: 0.8px
-      line-height: 29px
-      width: 610px
-      margin-left: auto
-      margin-right: auto
-    #scroller-button-down
-      height: 37px
-      width: 37px
-      border-radius: 50%
-      background-color: #19BD9A
-      margin-left: auto
-      margin-right: auto
-      margin-top: 214px
-      cursor: pointer
-    #scroller-button-down-arrow
-      transform: rotate(135deg)
-      border: 1px solid white
-      height: 7px
-      width: 7px
-      margin-left: auto
-      margin-right: auto
-      margin-top: -23px
-      border-bottom: none
-      border-left: none
-#bouncy
+  overflow: auto
+  background-image: url("../img/scroller.png")
+  background-position: bottom right
+
+.text-block
+  width: 1370px
+.scroller__text-block
+  margin-top: 282px
+.text-block__h
+  text-align: center
+  font-size: 20px
+  font-family: SourceSansProLight, arial
+  font-weight: lighter
+  margin-bottom: 27px
+  letter-spacing: 4px
+  margin-top: 0
+  color: black
+.text-block__h_scroller
+  font-size: 35px
+  letter-spacing: 7px
+  color: white
+.text-block__p
+  text-align: center
+  font-family: OpenSans, arial
+  font-size: 16px
+  letter-spacing: 0.8px
+  margin-left: auto
+  margin-right: auto
+  color: #81868E
+.text-block__p_scroller
+  line-height: 29px
+  width: 610px
+  color: white
+.green-button
+  height: 37px
+  width: 37px
+  border-radius: 50%
+  background-color: #19BD9A
+  cursor: pointer
+.scroller__green-button
+  margin-left: auto
+  margin-right: auto
+  margin-top: 214px
+  display: flex
+  align-items: center
+  justify-content: center
+.green-button__arrow-down
+  transform: rotate(135deg)
+  border: 1px solid white
+  height: 7px
+  width: 7px
+  border-bottom: none
+  border-left: none
+.bouncy
   height: 488px
   background-color: white
   margin-top: -12px
   position: relative
-  z-index: 4
-  #bouncy-text
-    width: 471px
-    height: 305px
-    float: left
-    margin-left: 265px
-    margin-top: 90px
-    h2
-      @extend %h2-preset
-      letter-spacing: 0.4px
-      margin-left: 2px
-      margin-top: 16px
-    p
-      @extend %p-preset
-      line-height: 25px
-      margin-top: 40px
-    #bouncy-button
-      width: 140px
-      height: 37px
-      font-family: OpenSans, arial
-      font-size: 16px
-      border: 1px solid black
-      border-radius: 25px
-      text-align: center
-      line-height: 37px
-      margin-top: 26px
-      cursor: pointer
-  #bouncy-img
-    width: 215px
-    height: 350px
-    margin-left: 161px
-    margin-top: 77px
-#details-bouncy
+  z-index: 2
+.bouncy__text-block
+  width: 471px
+  height: 305px
+  float: left
+  margin-left: 265px
+  margin-top: 90px
+.text-block__h_bouncy
+  font-size: 20px
+  margin-left: 2px
+  margin-top: 16px
+  letter-spacing: 4px
+  text-align: left
+.text-block__p_bouncy
+  font-size: 14px
+  letter-spacing: 0.7px
+  text-align: left
+  line-height: 25px
+  margin-top: 40px
+  color: #81868E
+.big-button
+  width: 140px
+  height: 35px
+  @extend %p-preset
+  font-size: 16px
+  border: 1px solid black
+  border-radius: 25px
+  text-align: center
+  line-height: 37px
+  letter-spacing: 0.1px
+  cursor: pointer
+.bouncy__big-button
+  margin-top: 29px
+.bouncy__img
+  width: 215px
+  height: 350px
+  margin-left: 161px
+  margin-top: 77px
+.details-bouncy
   height: 615px
   background-color: #F3F3F3
   overflow: auto
-  h2
-    text-align: center
+  .text-block__h_details-bouncy
     margin-top: 72px
-    @extend %h2-preset
-    letter-spacing: 0.2px
-  #details-bouncy-underh2
-    text-align: center
-    @extend %p-preset
+  .text-block__p_details-bouncy
     width: 470px
     margin-left: auto
     margin-right: auto
+    font-size: 14px
     margin-top: 30px
     line-height: 24px
-  #details-bouncy-markers
-    width: 216px
-    height: 53px
-    margin-left: auto
-    margin-right: auto
-    margin-top: 58px
-    display: flex
-    justify-content: space-between
-    cursor: pointer
-    div
-      height: 53px
-      width: 53px
-      border-radius: 50%
-      background-color: #81868E
-      display: flex
-      align-items: center
-      justify-content: center
-      img
-        height: 27px
-        width: 27px
-    div:hover
-      background-color: #19BD9A
-  #details-bouncy-text-left
-    float: left
-    width: 330px
-    height: 180px
-    margin-left: 168px
-    margin-top: 34px
-    @extend %p-preset
-    h3
-      font-size: 20px
-      font-weight: normal
-    p
-      margin-top: 30px
-      letter-spacing: 1.9px
-      line-height: 28px
+.markers-block
+  margin-left: auto
+  margin-right: auto
+  display: flex
+  justify-content: space-between
+  cursor: pointer
+.details-bouncy__markers-block
+  width: 216px
+  height: 53px
+  margin-top: 58px
+.markers-block__marker
+  height: 53px
+  width: 53px
+  border-radius: 50%
+  background-color: #81868E
+  display: flex
+  align-items: center
+  justify-content: center
+.markers-block__image
+  height: 27px
+  width: 27px
+.markers-block__marker:hover
+  background-color: #19BD9A
+.markers-block__image_l
+  background-image: url("../img/heart.png")
+.markers-block__image_m
+  background-image: url("../img/mouse.png")
+.markers-block__image_r
+  background-image: url("../img/lamp.png")
+.details-bouncy__text-left
+  float: left
+  width: 330px
+  height: 180px
+  margin-left: 168px
+  margin-top: 38px
+  @extend %p-preset
+.text-left__h3
+  font-size: 20px
+  font-weight: normal
+.text-left__p
+  margin-top: 30px
+  letter-spacing: 1.9px
+  line-height: 28px
+.details-bouncy__text-right
+  float: left
+  width: 522px
+  height: 180px
+  margin-left: 122px
+  margin-top: 109px
+  @extend %p-preset
+  line-height: 25px
 
-  #details-bouncy-text-right
-    float: left
-    width: 522px
-    height: 180px
-    margin-left: 122px
-    margin-top: 109px
-    @extend %p-preset
-    line-height: 25px
-.bold
-  font-weight: bold
-.green
-  color: #19BD9A
-#projects
+.projects
   height: 590px
-  #projects-text
+  .projects__text-block
     height: 159px
-    h3
-      text-align: center
-      @extend %h2-preset
+    margin-top: 76px
+    .text-block__h-projects
       font-size: 21px
-      font-weight: lighter
-      margin-top: 76px
-      letter-spacing: -0.3px
-    p
+      letter-spacing: 3.5px
+    .text-block__p-projects
       width: 465px
-      text-align: center
       margin-left: auto
       margin-right: auto
-      @extend %p-preset
       margin-top: 29px
       line-height: 24px
-  #projects-img
+      font-size: 14px
+      letter-spacing: 0.7px
+  .projects__img-gallery
     height: 319px
-    div
+    .img-gallery__img
       float: left
       display: flex
       justify-content: center
       align-items: center
-    #projects-img-1
+    .img-gallery__img_l
       width: 701px
       height: 319px
       background-image: url("../img/work1.png")
-    #projects-img-2
+    .img-gallery__img_m
       margin-left: -1px
       width: 336px
       height: 319px
       background-image: url("../img/project2.png")
-    #projects-img-3
+    .img-gallery__img_r
       margin-left: -2px
       width: 334px
       height: 319px
       background-image: url("../img/project3.png")
-  #vintage
+  .img-gallery__text
     color: white
     @extend %h2-preset
     font-weight: normal
-  #branding
-    color: white
-    @extend %h2-preset
-    font-weight: normal
-  #projects-banner
+
+  .projects__banner
     height: 113px
     background-image: url("../img/banner.png")
     overflow: auto
-    #projects-banner-text
+    .banner__text
       @extend %p-preset
       color: white
       margin-top: 43px
@@ -299,15 +306,12 @@ header
       font-size: 20px
       float: left
       letter-spacing: 0.9px
-    #projects-banner-button
+    .banner__button
       width: 140px
       height: 37px
-      margin-left: 50px
       color: white
       float: left
       border: 1px solid white
-      margin-left: 139px
-      margin-top: 37px
       border-radius: 21px
       display: flex
       justify-content: center
@@ -315,6 +319,10 @@ header
       @extend %p-preset
       font-size: 15px
       cursor: pointer
+    .banner__button_projects
+      margin-left: 139px
+      margin-top: 37px
+
 #services
   height: 638px
   overflow: auto
@@ -1047,21 +1055,21 @@ header
   display: flex
   align-items: center
   justify-content: center
-.contacts__bg-l
-  background-image: url("../img/email.png")
-.contacts__bg-m
+.contacts__bg_l
+  background_image: url("../img/email.png")
+.contacts__bg_m
   background-image: url("../img/adress.png")
-.contacts__bg-r
+.contacts__bg_r
   background-image: url("../img/phone.png")
 .contacts__marker
   height: 50px
   width: 50px
   z-index: 4
-.contacts__marker-l
+.contacts__marker_l
   background-image: url("../img/letter.png")
-.contacts__marker-m
+.contacts__marker_m
   background-image: url("../img/placeholder.png")
-.contacts__marker-r
+.contacts__marker_r
   background-image: url("../img/telephone.png")
   height: 45px
   width: 45px
