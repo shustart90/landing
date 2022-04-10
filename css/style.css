@@ -25,16 +25,17 @@
 .green {
   color: #19BD9A; }
 
-#team #team-h2, #testimonials h2, #price h2, #subscribe h2, #contacts h2, footer h2, .projects .img-gallery__text, #services h2, #impressed #impressed-text h2, #portfolio h2, #portfolio #portfolio-photos .portfolio-photos-column #portfolio-photos-text h3, #team #team-main #team-main-text #team-main-text-occup, #team #team-main #team-main-text .team-main-text-diagr .team-main-text-diagr-text, #news #content h2, #news #content #content-bio, #news #content #content-stats {
+#team #team-h2, #testimonials h2, #price h2, #subscribe h2, #contacts h2, footer h2, .img-gallery__text, .services__head, .impressed__head, #portfolio h2, #portfolio #portfolio-photos .portfolio-photos-column #portfolio-photos-text h3, #team #team-main #team-main-text #team-main-text-occup, #team #team-main #team-main-text .team-main-text-diagr .team-main-text-diagr-text, #news #content h2, #news #content #content-bio, #news #content #content-stats {
   font-family: SourceSansProLight, arial;
   font-weight: lighter;
-  font-size: 20px; }
+  font-size: 20px;
+  letter-spacing: 4px; }
 
 #team #team-h2, #testimonials h2, #price h2, #subscribe h2, #contacts h2, footer h2 {
   text-align: center;
   margin-top: 72px;
   font-size: 20.5px;
-  letter-spacing: -0.2px; }
+  letter-spacing: 4px; }
 
 #team #team-first-text, #testimonials p, #price #price-text, #subscribe p, #contacts #contacts-text, footer p {
   width: 460px;
@@ -44,33 +45,34 @@
   margin-top: 28px;
   line-height: 25px; }
 
-#team #team-first-text, #testimonials p, #price #price-text, #subscribe p, #contacts #contacts-text, footer p, .big-button, .details-bouncy__text-left, .details-bouncy__text-right, .projects .projects__banner .banner__text, .projects .projects__banner .banner__button, #services #services-text, #services #services-left #services-left-text h3, #services #services-left #services-left-text p, #impressed #impressed-text #impressed-text-1, #impressed #impressed-text #impressed-text-2, #portfolio p, #portfolio ul li, #portfolio #portfolio-photos .portfolio-photos-column #portfolio-photos-text p, #portfolio #portfolio-banner p, .button, #team #team-main #team-main-text #team-main-text-name, #team #team-main #team-main-text #team-main-text-text, #contact-us h2, #testimonials #testimonials-main #testimonials-main-text #testimonials-main-text-bio, #news #content #content-text-main, #news #content #content-h3, #news #content #content-text-second, #news #content #content-read-more, #price #price-blocks .price-block .price-block-time, #price #price-blocks .price-block .price-block-footer, #price #price-blocks ul li, #subscribe #subscribe-form #subscribe-form-text::-webkit-input-placeholder, #subscribe #subscribe-form #subscribe-form-submit, #contacts #contacts-cards .contacts-cards-card .contacts-card-name, #contacts #contacts-cards .contacts-cards-card .contacts-card-adress, #contacts #contacts-cards .contacts-cards-card #contacts-card-phone, #contacts #contacts-cards .contacts-cards-card #contacts-card-adress, #message #message-block-mini .message-mini-area, #message #message-button input, #map #map-black-block #map-black-block-text {
+#team #team-first-text, #testimonials p, #price #price-text, #subscribe p, #contacts #contacts-text, footer p, .big-button, .details-bouncy__text-left, .details-bouncy__text-right, .banner__text, .banner__button, .services__head-text, .services__head-min, .services__text-min_up, .services__text-min_down, .impressed__text-top, .impressed__text-bot, #portfolio p, #portfolio ul li, #portfolio #portfolio-photos .portfolio-photos-column #portfolio-photos-text p, #portfolio #portfolio-banner p, .button, #team #team-main #team-main-text #team-main-text-name, #team #team-main #team-main-text #team-main-text-text, #contact-us h2, #testimonials #testimonials-main #testimonials-main-text #testimonials-main-text-bio, #news #content #content-text-main, #news #content #content-h3, #news #content #content-text-second, #news #content #content-read-more, #price #price-blocks .price-block .price-block-time, #price #price-blocks .price-block .price-block-footer, #price #price-blocks ul li, #subscribe #subscribe-form #subscribe-form-text::-webkit-input-placeholder, #subscribe #subscribe-form #subscribe-form-submit, #contacts #contacts-cards .contacts-cards-card .contacts-card-name, #contacts #contacts-cards .contacts-cards-card .contacts-card-adress, #contacts #contacts-cards .contacts-cards-card #contacts-card-phone, #contacts #contacts-cards .contacts-cards-card #contacts-card-adress, #message #message-block-mini .message-mini-area, #message #message-button input, .map__text {
   font-family: OpenSans, arial;
   font-size: 14px;
   letter-spacing: 0.7px; }
 
-#team #team-first-text, #testimonials p, #price #price-text, #subscribe p, #contacts #contacts-text, footer p, .big-button, .details-bouncy__text-left, .details-bouncy__text-right, .projects .projects__banner .banner__text, .projects .projects__banner .banner__button, #services #services-text, #services #services-left #services-left-text h3, #services #services-left #services-left-text p, #impressed #impressed-text #impressed-text-1, #impressed #impressed-text #impressed-text-2, #portfolio p, #portfolio ul li, #portfolio #portfolio-photos .portfolio-photos-column #portfolio-photos-text p, #portfolio #portfolio-banner p, .button, #team #team-main #team-main-text #team-main-text-name, #team #team-main #team-main-text #team-main-text-text, #contact-us h2, #testimonials #testimonials-main #testimonials-main-text #testimonials-main-text-bio, #news #content #content-text-main, #news #content #content-h3, #news #content #content-text-second, #news #content #content-read-more, #price #price-blocks .price-block .price-block-time, #price #price-blocks .price-block .price-block-footer, #price #price-blocks ul li, #subscribe #subscribe-form #subscribe-form-text:-ms-input-placeholder, #subscribe #subscribe-form #subscribe-form-submit, #contacts #contacts-cards .contacts-cards-card .contacts-card-name, #contacts #contacts-cards .contacts-cards-card .contacts-card-adress, #contacts #contacts-cards .contacts-cards-card #contacts-card-phone, #contacts #contacts-cards .contacts-cards-card #contacts-card-adress, #message #message-block-mini .message-mini-area, #message #message-button input, #map #map-black-block #map-black-block-text {
+#team #team-first-text, #testimonials p, #price #price-text, #subscribe p, #contacts #contacts-text, footer p, .big-button, .details-bouncy__text-left, .details-bouncy__text-right, .banner__text, .banner__button, .services__head-text, .services__head-min, .services__text-min_up, .services__text-min_down, .impressed__text-top, .impressed__text-bot, #portfolio p, #portfolio ul li, #portfolio #portfolio-photos .portfolio-photos-column #portfolio-photos-text p, #portfolio #portfolio-banner p, .button, #team #team-main #team-main-text #team-main-text-name, #team #team-main #team-main-text #team-main-text-text, #contact-us h2, #testimonials #testimonials-main #testimonials-main-text #testimonials-main-text-bio, #news #content #content-text-main, #news #content #content-h3, #news #content #content-text-second, #news #content #content-read-more, #price #price-blocks .price-block .price-block-time, #price #price-blocks .price-block .price-block-footer, #price #price-blocks ul li, #subscribe #subscribe-form #subscribe-form-text:-ms-input-placeholder, #subscribe #subscribe-form #subscribe-form-submit, #contacts #contacts-cards .contacts-cards-card .contacts-card-name, #contacts #contacts-cards .contacts-cards-card .contacts-card-adress, #contacts #contacts-cards .contacts-cards-card #contacts-card-phone, #contacts #contacts-cards .contacts-cards-card #contacts-card-adress, #message #message-block-mini .message-mini-area, #message #message-button input, .map__text {
   font-family: OpenSans, arial;
   font-size: 14px;
   letter-spacing: 0.7px; }
 
-#team #team-first-text, #testimonials p, #price #price-text, #subscribe p, #contacts #contacts-text, footer p, .big-button, .details-bouncy__text-left, .details-bouncy__text-right, .projects .projects__banner .banner__text, .projects .projects__banner .banner__button, #services #services-text, #services #services-left #services-left-text h3, #services #services-left #services-left-text p, #impressed #impressed-text #impressed-text-1, #impressed #impressed-text #impressed-text-2, #portfolio p, #portfolio ul li, #portfolio #portfolio-photos .portfolio-photos-column #portfolio-photos-text p, #portfolio #portfolio-banner p, .button, #team #team-main #team-main-text #team-main-text-name, #team #team-main #team-main-text #team-main-text-text, #contact-us h2, #testimonials #testimonials-main #testimonials-main-text #testimonials-main-text-bio, #news #content #content-text-main, #news #content #content-h3, #news #content #content-text-second, #news #content #content-read-more, #price #price-blocks .price-block .price-block-time, #price #price-blocks .price-block .price-block-footer, #price #price-blocks ul li, #subscribe #subscribe-form #subscribe-form-text::-ms-input-placeholder, #subscribe #subscribe-form #subscribe-form-submit, #contacts #contacts-cards .contacts-cards-card .contacts-card-name, #contacts #contacts-cards .contacts-cards-card .contacts-card-adress, #contacts #contacts-cards .contacts-cards-card #contacts-card-phone, #contacts #contacts-cards .contacts-cards-card #contacts-card-adress, #message #message-block-mini .message-mini-area, #message #message-button input, #map #map-black-block #map-black-block-text {
+#team #team-first-text, #testimonials p, #price #price-text, #subscribe p, #contacts #contacts-text, footer p, .big-button, .details-bouncy__text-left, .details-bouncy__text-right, .banner__text, .banner__button, .services__head-text, .services__head-min, .services__text-min_up, .services__text-min_down, .impressed__text-top, .impressed__text-bot, #portfolio p, #portfolio ul li, #portfolio #portfolio-photos .portfolio-photos-column #portfolio-photos-text p, #portfolio #portfolio-banner p, .button, #team #team-main #team-main-text #team-main-text-name, #team #team-main #team-main-text #team-main-text-text, #contact-us h2, #testimonials #testimonials-main #testimonials-main-text #testimonials-main-text-bio, #news #content #content-text-main, #news #content #content-h3, #news #content #content-text-second, #news #content #content-read-more, #price #price-blocks .price-block .price-block-time, #price #price-blocks .price-block .price-block-footer, #price #price-blocks ul li, #subscribe #subscribe-form #subscribe-form-text::-ms-input-placeholder, #subscribe #subscribe-form #subscribe-form-submit, #contacts #contacts-cards .contacts-cards-card .contacts-card-name, #contacts #contacts-cards .contacts-cards-card .contacts-card-adress, #contacts #contacts-cards .contacts-cards-card #contacts-card-phone, #contacts #contacts-cards .contacts-cards-card #contacts-card-adress, #message #message-block-mini .message-mini-area, #message #message-button input, .map__text {
   font-family: OpenSans, arial;
   font-size: 14px;
   letter-spacing: 0.7px; }
 
-#team #team-first-text, #testimonials p, #price #price-text, #subscribe p, #contacts #contacts-text, footer p, .big-button, .details-bouncy__text-left, .details-bouncy__text-right, .projects .projects__banner .banner__text, .projects .projects__banner .banner__button, #services #services-text, #services #services-left #services-left-text h3, #services #services-left #services-left-text p, #impressed #impressed-text #impressed-text-1, #impressed #impressed-text #impressed-text-2, #portfolio p, #portfolio ul li, #portfolio #portfolio-photos .portfolio-photos-column #portfolio-photos-text p, #portfolio #portfolio-banner p, .button, #team #team-main #team-main-text #team-main-text-name, #team #team-main #team-main-text #team-main-text-text, #contact-us h2, #testimonials #testimonials-main #testimonials-main-text #testimonials-main-text-bio, #news #content #content-text-main, #news #content #content-h3, #news #content #content-text-second, #news #content #content-read-more, #price #price-blocks .price-block .price-block-time, #price #price-blocks .price-block .price-block-footer, #price #price-blocks ul li, #subscribe #subscribe-form #subscribe-form-text::placeholder, #subscribe #subscribe-form #subscribe-form-submit, #contacts #contacts-cards .contacts-cards-card .contacts-card-name, #contacts #contacts-cards .contacts-cards-card .contacts-card-adress, #contacts #contacts-cards .contacts-cards-card #contacts-card-phone, #contacts #contacts-cards .contacts-cards-card #contacts-card-adress, #message #message-block-mini .message-mini-area, #message #message-button input, #map #map-black-block #map-black-block-text {
+#team #team-first-text, #testimonials p, #price #price-text, #subscribe p, #contacts #contacts-text, footer p, .big-button, .details-bouncy__text-left, .details-bouncy__text-right, .banner__text, .banner__button, .services__head-text, .services__head-min, .services__text-min_up, .services__text-min_down, .impressed__text-top, .impressed__text-bot, #portfolio p, #portfolio ul li, #portfolio #portfolio-photos .portfolio-photos-column #portfolio-photos-text p, #portfolio #portfolio-banner p, .button, #team #team-main #team-main-text #team-main-text-name, #team #team-main #team-main-text #team-main-text-text, #contact-us h2, #testimonials #testimonials-main #testimonials-main-text #testimonials-main-text-bio, #news #content #content-text-main, #news #content #content-h3, #news #content #content-text-second, #news #content #content-read-more, #price #price-blocks .price-block .price-block-time, #price #price-blocks .price-block .price-block-footer, #price #price-blocks ul li, #subscribe #subscribe-form #subscribe-form-text::placeholder, #subscribe #subscribe-form #subscribe-form-submit, #contacts #contacts-cards .contacts-cards-card .contacts-card-name, #contacts #contacts-cards .contacts-cards-card .contacts-card-adress, #contacts #contacts-cards .contacts-cards-card #contacts-card-phone, #contacts #contacts-cards .contacts-cards-card #contacts-card-adress, #message #message-block-mini .message-mini-area, #message #message-button input, .map__text {
   font-family: OpenSans, arial;
   font-size: 14px;
   letter-spacing: 0.7px; }
 
-body {
-  width: 1370px;
-  margin: 0px; }
+.wrapper {
+  max-width: 1370px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto; }
 
 header {
   height: 111px;
-  width: 1373px;
   position: absolute;
   z-index: 4;
   margin: 0; }
@@ -135,13 +137,9 @@ header {
 
 .scroller {
   height: 750px;
-  width: 1370px;
   overflow: auto;
   background-image: url("../img/scroller.png");
   background-position: bottom right; }
-
-.text-block {
-  width: 1370px; }
 
 .scroller__text-block {
   margin-top: 282px; }
@@ -256,6 +254,7 @@ header {
 
 .details-bouncy {
   height: 615px;
+  max-width: 100%;
   background-color: #F3F3F3;
   overflow: auto; }
   .details-bouncy .text-block__h_details-bouncy {
@@ -341,187 +340,220 @@ header {
 
 .projects {
   height: 590px; }
-  .projects .projects__text-block {
-    height: 159px;
-    margin-top: 76px; }
-    .projects .projects__text-block .text-block__h-projects {
-      font-size: 21px;
-      letter-spacing: 3.5px; }
-    .projects .projects__text-block .text-block__p-projects {
-      width: 465px;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 29px;
-      line-height: 24px;
-      font-size: 14px;
-      letter-spacing: 0.7px; }
-  .projects .projects__img-gallery {
-    height: 319px; }
-    .projects .projects__img-gallery .img-gallery__img {
-      float: left;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center; }
-    .projects .projects__img-gallery .img-gallery__img_l {
-      width: 701px;
-      height: 319px;
-      background-image: url("../img/work1.png"); }
-    .projects .projects__img-gallery .img-gallery__img_m {
-      margin-left: -1px;
-      width: 336px;
-      height: 319px;
-      background-image: url("../img/project2.png"); }
-    .projects .projects__img-gallery .img-gallery__img_r {
-      margin-left: -2px;
-      width: 334px;
-      height: 319px;
-      background-image: url("../img/project3.png"); }
-  .projects .img-gallery__text {
-    color: white;
-    font-weight: normal; }
-  .projects .projects__banner {
-    height: 113px;
-    background-image: url("../img/banner.png");
-    overflow: auto; }
-    .projects .projects__banner .banner__text {
-      color: white;
-      margin-top: 43px;
-      margin-left: 170px;
-      font-size: 20px;
-      float: left;
-      letter-spacing: 0.9px; }
-    .projects .projects__banner .banner__button {
-      width: 140px;
-      height: 37px;
-      color: white;
-      float: left;
-      border: 1px solid white;
-      border-radius: 21px;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      font-size: 15px;
-      cursor: pointer; }
-    .projects .projects__banner .banner__button_projects {
-      margin-left: 139px;
-      margin-top: 37px; }
 
-#services {
+.projects__text-block {
+  height: 159px;
+  margin-top: 76px; }
+
+.text-block__h-projects {
+  font-size: 21px;
+  letter-spacing: 3.5px; }
+
+.text-block__p-projects {
+  width: 465px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 29px;
+  line-height: 24px;
+  font-size: 14px;
+  letter-spacing: 0.7px; }
+
+.projects__img-gallery {
+  height: 319px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.img-gallery__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.img-gallery__img_l {
+  width: 701px;
+  height: 319px;
+  background-image: url("../img/work1.png"); }
+
+.img-gallery__img_m {
+  width: 336px;
+  height: 319px;
+  background-image: url("../img/project2.png"); }
+
+.img-gallery__img_r {
+  width: 334px;
+  height: 319px;
+  background-image: url("../img/project3.png"); }
+
+.img-gallery__text {
+  color: white;
+  font-weight: normal; }
+
+.projects__banner {
+  height: 113px;
+  background-image: url("../img/banner.png");
+  overflow: auto; }
+
+.banner__text {
+  color: white;
+  margin-top: 43px;
+  margin-left: 170px;
+  font-size: 20px;
+  float: left;
+  letter-spacing: 0.9px; }
+
+.banner__button {
+  width: 140px;
+  height: 37px;
+  color: white;
+  float: left;
+  border: 1px solid white;
+  border-radius: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  cursor: pointer; }
+
+.banner__button_projects {
+  margin-left: 139px;
+  margin-top: 37px; }
+
+.services {
   height: 638px;
   overflow: auto;
   background-color: #F3F3F3; }
-  #services h2 {
-    text-align: center;
-    margin-top: 76px; }
-  #services #services-text {
-    height: 70px;
-    width: 492px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-top: 31px;
-    line-height: 24px; }
-  #services #services-left {
-    width: 712px;
-    height: 416px;
-    float: left; }
-    #services #services-left #services-left-markers {
-      width: 53px;
-      height: 315px;
-      margin-left: 169px;
-      float: left;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column; }
-      #services #services-left #services-left-markers #services-marker-1 {
-        margin-top: 21px; }
-      #services #services-left #services-left-markers #services-marker-2 {
-        margin-top: 18px; }
-      #services #services-left #services-left-markers #services-marker-3 {
-        margin-top: 17px; }
-      #services #services-left #services-left-markers #services-marker-4 {
-        margin-top: 16px; }
-    #services #services-left #services-left-text {
-      width: 400px;
-      height: 270px;
-      float: left;
-      margin-left: 44px; }
-      #services #services-left #services-left-text h3 {
-        margin-top: 18px;
-        font-size: 20px;
-        font-weight: normal; }
-      #services #services-left #services-left-text #services-left-text-1 {
-        font-size: 16px;
-        margin-top: 28px;
-        line-height: 28px;
-        letter-spacing: 0.9px; }
-      #services #services-left #services-left-text #services-left-text-2 {
-        margin-top: 28px;
-        line-height: 25px;
-        font-size: 14px; }
-  #services #services-right figure {
-    float: left;
-    margin-top: 76px;
-    position: relative; }
-    #services #services-right figure svg {
-      position: absolute;
-      bottom: 36px;
-      left: -4px; }
-      #services #services-right figure svg circle {
-        -webkit-transform-origin: center;
-                transform-origin: center;
-        -webkit-transform: rotate(-90deg);
-                transform: rotate(-90deg); }
-    #services #services-right figure figcaption {
-      font-family: "RobotoLight";
-      font-size: 16px;
-      text-align: center;
-      margin-top: 22px;
-      letter-spacing: 0.6px; }
-    #services #services-right figure .services-right-curcle {
-      height: 118px;
-      width: 118px;
-      border-radius: 50%;
-      border: 2px solid #1F696E;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; }
-      #services #services-right figure .services-right-curcle span {
-        font-family: "OpenSans";
-        font-size: 26px;
-        color: #81868E; }
-        #services #services-right figure .services-right-curcle span span {
-          font-size: 16px; }
-  #services #services-right #figure-1 {
-    margin-left: 33px; }
-  #services #services-right #figure-2 {
-    margin-left: 0px; }
-  #services #services-right #figure-3 {
-    margin-left: 3px; }
 
-.services-marker {
+.services__head {
+  text-align: center;
+  margin-top: 76px; }
+
+.services__head-text {
+  height: 70px;
+  width: 492px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 31px;
+  line-height: 24px; }
+
+.services__left-block {
+  width: 712px;
+  height: 416px;
+  float: left; }
+
+.services__markers {
+  width: 53px;
+  height: 315px;
+  margin-left: 169px;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+#services-marker-1 {
+  margin-top: 21px; }
+
+#services-marker-2 {
+  margin-top: 18px; }
+
+#services-marker-3 {
+  margin-top: 17px; }
+
+#services-marker-4 {
+  margin-top: 16px; }
+
+.services__left-text {
+  width: 400px;
+  height: 270px;
+  float: left;
+  margin-left: 44px; }
+
+.services__head-min {
+  margin-top: 18px;
+  font-size: 20px;
+  font-weight: normal; }
+
+.services__text-min_up {
+  font-size: 16px;
+  margin-top: 28px;
+  line-height: 28px;
+  letter-spacing: 0.9px; }
+
+.services__text-min_down {
+  margin-top: 28px;
+  line-height: 25px;
+  font-size: 14px; }
+
+.services__figure {
+  float: left;
+  margin-top: 76px;
+  position: relative; }
+
+.figure__ring {
+  position: absolute;
+  bottom: 36px;
+  left: -4px; }
+
+.figure__circle-svg {
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg); }
+
+.figure__text {
+  font-family: "RobotoLight";
+  font-size: 16px;
+  text-align: center;
+  margin-top: 22px;
+  letter-spacing: 0.6px; }
+
+.figure__circle {
+  height: 118px;
+  width: 118px;
+  border-radius: 50%;
+  border: 2px solid #1F696E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .figure__circle span {
+    font-family: "OpenSans";
+    font-size: 26px;
+    color: #81868E; }
+    .figure__circle span span {
+      font-size: 16px; }
+
+.services__figure-l {
+  margin-left: 33px; }
+
+.services__figure-m {
+  margin-left: 0px; }
+
+.services__figure-r {
+  margin-left: 3px; }
+
+.services__marker {
   width: 53px;
   height: 53px;
   border-radius: 50%;
@@ -535,50 +567,57 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  .services-marker img {
-    height: 25px;
-    width: 25px; }
 
-.services-marker:hover {
+.services__marker-pic {
+  height: 25px;
+  width: 25px; }
+
+.services__marker:hover {
   background-color: #19BD9A; }
 
-#impressed {
+.impressed {
   height: 392px;
   background-image: url("../img/clip.png");
   position: relative;
   overflow: visible;
   border: 1px solid transparent; }
-  #impressed img {
-    position: absolute;
-    bottom: 104px;
-    right: 102px; }
-  #impressed #impressed-laptopText {
-    position: absolute;
-    bottom: 294px;
-    right: 238px;
-    font-size: 30px;
-    color: white;
-    font-family: "BigJohn"; }
-  #impressed #impressed-text {
-    color: white; }
-    #impressed #impressed-text h2 {
-      margin-top: 73px;
-      margin-left: 96px; }
-    #impressed #impressed-text #impressed-text-1 {
-      width: 600px;
-      width: 600px;
-      margin-top: 48px;
-      margin-left: 99px;
-      font-size: 16px;
-      letter-spacing: 0.8px;
-      line-height: 27px; }
-    #impressed #impressed-text #impressed-text-2 {
-      font-size: 14px;
-      margin-left: 99px;
-      margin-top: 20px;
-      line-height: 25px; }
-      #impressed #impressed-text #impressed-text-2 #author {
-        letter-spacing: 1px; }
+
+.impressed__laptop {
+  position: absolute;
+  bottom: 104px;
+  right: 102px; }
+
+.impressed__laptop-text {
+  position: absolute;
+  bottom: 294px;
+  right: 238px;
+  font-size: 30px;
+  color: white;
+  font-family: "BigJohn"; }
+
+.impressed__text-block {
+  color: white; }
+
+.impressed__head {
+  margin-top: 73px;
+  margin-left: 96px; }
+
+.impressed__text-top {
+  width: 600px;
+  margin-top: 48px;
+  margin-left: 99px;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  line-height: 27px; }
+
+.impressed__text-bot {
+  font-size: 14px;
+  margin-left: 99px;
+  margin-top: 20px;
+  line-height: 25px; }
+
+.impressed__author {
+  letter-spacing: 1px; }
 
 #portfolio {
   height: 1635px;
@@ -587,8 +626,7 @@ header {
   #portfolio h2 {
     text-align: center;
     margin-top: 72px;
-    font-size: 20.5px;
-    letter-spacing: -0.2px; }
+    font-size: 20.5px; }
   #portfolio p {
     width: 460px;
     margin-left: auto;
@@ -770,14 +808,15 @@ header {
       #team #team-main #team-main-text #team-main-text-name {
         font-size: 20px;
         font-weight: bold;
-        margin-bottom: 0; }
+        margin-bottom: 0;
+        position: relative; }
       #team #team-main #team-main-text #team-main-text-name::after {
         content: "";
         position: absolute;
         background: #19BD9A;
         width: 4px;
         height: 42px;
-        right: 152px; }
+        right: -25px; }
       #team #team-main #team-main-text #team-main-text-occup {
         font-size: 14px;
         font-style: italic;
@@ -1297,59 +1336,63 @@ header {
       font-size: 16px;
       letter-spacing: 0.1px; }
 
-#map {
+.map {
   height: 496px;
   position: relative; }
-  #map #map-black-block {
-    height: 497px;
-    width: 100%;
-    background-color: black;
-    opacity: 0.9;
-    position: absolute;
-    z-index: 2;
-    top: 0px; }
-    #map #map-black-block #map-black-block-text {
-      font-size: 16px;
-      color: white;
-      width: 208px;
-      height: 21px;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 237px;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center; }
-      #map #map-black-block #map-black-block-text p {
-        width: 175px; }
-    #map #map-black-block #map-black-block-button {
-      width: 20px;
-      height: 20px;
-      background-color: #19BD9A;
-      border-radius: 50%;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      cursor: pointer; }
-      #map #map-black-block #map-black-block-button #map-black-block-button-arrow {
-        -webkit-transform: rotate(135deg);
-                transform: rotate(135deg);
-        border: 1px solid white;
-        height: 4px;
-        width: 4px;
-        border-bottom: none;
-        border-left: none; }
+
+.map__black-block {
+  height: 497px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.9;
+  position: absolute;
+  top: 0px; }
+
+.map__content {
+  width: 208px;
+  height: 21px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 237px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.map__text {
+  font-size: 16px;
+  color: white;
+  width: 175px; }
+
+.map__button {
+  width: 20px;
+  height: 20px;
+  background-color: #19BD9A;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer; }
+
+.map__button-arrow {
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+  border: 1px solid white;
+  height: 4px;
+  width: 4px;
+  border-bottom: none;
+  border-left: none; }
 
 footer {
   height: 290px;

@@ -9,13 +9,14 @@
   font-family: SourceSansProLight, arial
   font-weight: lighter
   font-size: 20px
+  letter-spacing: 4px
 
 %h2-ready
   @extend %h2-preset
   text-align: center
   margin-top: 72px
   font-size: 20.5px
-  letter-spacing: -0.2px
+  letter-spacing: 4px
 
 %text-p-ready
   @extend %p-preset
@@ -30,13 +31,14 @@
   font-family: OpenSans, arial
   font-size: 14px
   letter-spacing: 0.7px
-body
-  width: 1370px
-  margin: 0px
+.wrapper
+  max-width: 1370px
+  width: 100%
+  margin-right: auto
+  margin-left: auto
 
 header
   height: 111px
-  width: 1373px
   position: absolute
   z-index: 4
   margin: 0
@@ -90,13 +92,10 @@ header
   width: 77px
 .scroller
   height: 750px
-  width: 1370px
   overflow: auto
   background-image: url("../img/scroller.png")
   background-position: bottom right
 
-.text-block
-  width: 1370px
 .scroller__text-block
   margin-top: 282px
 .text-block__h
@@ -189,6 +188,7 @@ header
   margin-top: 77px
 .details-bouncy
   height: 615px
+  max-width: 100%
   background-color: #F3F3F3
   overflow: auto
   .text-block__h_details-bouncy
@@ -254,171 +254,168 @@ header
 
 .projects
   height: 590px
-  .projects__text-block
-    height: 159px
-    margin-top: 76px
-    .text-block__h-projects
-      font-size: 21px
-      letter-spacing: 3.5px
-    .text-block__p-projects
-      width: 465px
-      margin-left: auto
-      margin-right: auto
-      margin-top: 29px
-      line-height: 24px
-      font-size: 14px
-      letter-spacing: 0.7px
-  .projects__img-gallery
-    height: 319px
-    .img-gallery__img
-      float: left
-      display: flex
-      justify-content: center
-      align-items: center
-    .img-gallery__img_l
-      width: 701px
-      height: 319px
-      background-image: url("../img/work1.png")
-    .img-gallery__img_m
-      margin-left: -1px
-      width: 336px
-      height: 319px
-      background-image: url("../img/project2.png")
-    .img-gallery__img_r
-      margin-left: -2px
-      width: 334px
-      height: 319px
-      background-image: url("../img/project3.png")
-  .img-gallery__text
-    color: white
-    @extend %h2-preset
-    font-weight: normal
+.projects__text-block
+  height: 159px
+  margin-top: 76px
+.text-block__h-projects
+  font-size: 21px
+  letter-spacing: 3.5px
+.text-block__p-projects
+  width: 465px
+  margin-left: auto
+  margin-right: auto
+  margin-top: 29px
+  line-height: 24px
+  font-size: 14px
+  letter-spacing: 0.7px
+.projects__img-gallery
+  height: 319px
+  display: flex
+.img-gallery__img
+  display: flex
+  align-items: center
+  justify-content: center
+.img-gallery__img_l
+  width: 701px
+  height: 319px
+  background-image: url("../img/work1.png")
+.img-gallery__img_m
+  width: 336px
+  height: 319px
+  background-image: url("../img/project2.png")
+.img-gallery__img_r
+  width: 334px
+  height: 319px
+  background-image: url("../img/project3.png")
+.img-gallery__text
+  color: white
+  @extend %h2-preset
+  font-weight: normal
 
-  .projects__banner
-    height: 113px
-    background-image: url("../img/banner.png")
-    overflow: auto
-    .banner__text
-      @extend %p-preset
-      color: white
-      margin-top: 43px
-      margin-left: 170px
-      font-size: 20px
-      float: left
-      letter-spacing: 0.9px
-    .banner__button
-      width: 140px
-      height: 37px
-      color: white
-      float: left
-      border: 1px solid white
-      border-radius: 21px
-      display: flex
-      justify-content: center
-      align-items: center
-      @extend %p-preset
-      font-size: 15px
-      cursor: pointer
-    .banner__button_projects
-      margin-left: 139px
-      margin-top: 37px
+.projects__banner
+  height: 113px
+  background-image: url("../img/banner.png")
+  overflow: auto
+.banner__text
+  @extend %p-preset
+  color: white
+  margin-top: 43px
+  margin-left: 170px
+  font-size: 20px
+  float: left
+  letter-spacing: 0.9px
+.banner__button
+  width: 140px
+  height: 37px
+  color: white
+  float: left
+  border: 1px solid white
+  border-radius: 21px
+  display: flex
+  justify-content: center
+  align-items: center
+  @extend %p-preset
+  font-size: 15px
+  cursor: pointer
+.banner__button_projects
+  margin-left: 139px
+  margin-top: 37px
 
-#services
+.services
   height: 638px
   overflow: auto
   background-color: #F3F3F3
-  h2
-    text-align: center
-    @extend %h2-preset
-    margin-top: 76px
-  #services-text
-    height: 70px
-    width: 492px
-    margin-left: auto
-    margin-right: auto
-    text-align: center
-    @extend %p-preset
-    margin-top: 31px
-    line-height: 24px
-  #services-left
-    width: 712px
-    height: 416px
-    float: left
-    #services-left-markers
-      width: 53px
-      height: 315px
-      margin-left: 169px
-      float: left
-      display: flex
-      flex-direction: column
-      #services-marker-1
-        margin-top: 21px
-      #services-marker-2
-        margin-top: 18px
-      #services-marker-3
-        margin-top: 17px
-      #services-marker-4
-        margin-top: 16px
-    #services-left-text
-      width: 400px
-      height: 270px
-      float: left
-      margin-left: 44px
-      h3
-        margin-top: 18px
-        @extend %p-preset
-        font-size: 20px
-        font-weight: normal
-      p
-        @extend %p-preset
-      #services-left-text-1
-        font-size: 16px
-        margin-top: 28px
-        line-height: 28px
-        letter-spacing: 0.9px
-      #services-left-text-2
-        margin-top: 28px
-        line-height: 25px
-        font-size: 14px
-  #services-right
-    figure
-      float: left
-      margin-top: 76px
-      position: relative
-      svg
-        position: absolute
-        bottom: 36px
-        left: -4px
-        circle
-          transform-origin: center
-          transform: rotate(-90deg)
-      figcaption
-        font-family: "RobotoLight"
-        font-size: 16px
-        text-align: center
-        margin-top: 22px
-        letter-spacing: 0.6px
-      .services-right-curcle
-        height: 118px
-        width: 118px
-        border-radius: 50%
-        border: 2px solid #1F696E
-        display: flex
-        align-items: center
-        justify-content: center
-        span
-          font-family: "OpenSans"
-          font-size: 26px
-          color: #81868E
-          span
-            font-size: 16px
-    #figure-1
-      margin-left: 33px
-    #figure-2
-      margin-left: 0px
-    #figure-3
-      margin-left: 3px
-.services-marker
+.services__head
+  text-align: center
+  @extend %h2-preset
+  margin-top: 76px
+.services__head-text
+  height: 70px
+  width: 492px
+  margin-left: auto
+  margin-right: auto
+  text-align: center
+  @extend %p-preset
+  margin-top: 31px
+  line-height: 24px
+.services__left-block
+  width: 712px
+  height: 416px
+  float: left
+.services__markers
+  width: 53px
+  height: 315px
+  margin-left: 169px
+  float: left
+  display: flex
+  flex-direction: column
+#services-marker-1
+  margin-top: 21px
+#services-marker-2
+  margin-top: 18px
+#services-marker-3
+  margin-top: 17px
+#services-marker-4
+  margin-top: 16px
+.services__left-text
+  width: 400px
+  height: 270px
+  float: left
+  margin-left: 44px
+.services__head-min
+  margin-top: 18px
+  @extend %p-preset
+  font-size: 20px
+  font-weight: normal
+.services__text-min_up
+  @extend %p-preset
+  font-size: 16px
+  margin-top: 28px
+  line-height: 28px
+  letter-spacing: 0.9px
+.services__text-min_down
+  @extend %p-preset
+  margin-top: 28px
+  line-height: 25px
+  font-size: 14px
+.services__figure
+  float: left
+  margin-top: 76px
+  position: relative
+.figure__ring
+  position: absolute
+  bottom: 36px
+  left: -4px
+.figure__circle-svg
+  transform-origin: center
+  transform: rotate(-90deg)
+.figure__text
+  font-family: "RobotoLight"
+  font-size: 16px
+  text-align: center
+  margin-top: 22px
+  letter-spacing: 0.6px
+.figure__circle
+  height: 118px
+  width: 118px
+  border-radius: 50%
+  border: 2px solid #1F696E
+  display: flex
+  align-items: center
+  justify-content: center
+  span
+    font-family: "OpenSans"
+    font-size: 26px
+    color: #81868E
+    span
+      font-size: 16px
+.services__figure-l
+  margin-left: 33px
+.services__figure-m
+  margin-left: 0px
+.services__figure-r
+  margin-left: 3px
+.services__marker
   width: 53px
   height: 53px
   border-radius: 50%
@@ -426,51 +423,50 @@ header
   display: flex
   align-items: center
   justify-content: center
-  img
-    height: 25px
-    width: 25px
-.services-marker:hover
+.services__marker-pic
+  height: 25px
+  width: 25px
+.services__marker:hover
   background-color: #19BD9A
-#impressed
+.impressed
   height: 392px
   background-image: url("../img/clip.png")
   position: relative
   overflow: visible
   border: 1px solid transparent
-  img
-    position: absolute
-    bottom: 104px
-    right: 102px
-  #impressed-laptopText
-    position: absolute
-    bottom: 294px
-    right: 238px
-    font-size: 30px
-    color: white
-    font-family: "BigJohn"
-  #impressed-text
-    color: white
-    h2
-      @extend %h2-preset
-      margin-top: 73px
-      margin-left: 96px
-    #impressed-text-1
-      @extend %p-preset
-      width: 600px
-      width: 600px
-      margin-top: 48px
-      margin-left: 99px
-      font-size: 16px
-      letter-spacing: 0.8px
-      line-height: 27px
-    #impressed-text-2
-      @extend %p-preset
-      font-size: 14px
-      margin-left: 99px
-      margin-top: 20px
-      line-height: 25px
-      #author
-        letter-spacing: 1px
+.impressed__laptop
+  position: absolute
+  bottom: 104px
+  right: 102px
+.impressed__laptop-text
+  position: absolute
+  bottom: 294px
+  right: 238px
+  font-size: 30px
+  color: white
+  font-family: "BigJohn"
+.impressed__text-block
+  color: white
+.impressed__head
+  @extend %h2-preset
+  margin-top: 73px
+  margin-left: 96px
+.impressed__text-top
+  @extend %p-preset
+  width: 600px
+  margin-top: 48px
+  margin-left: 99px
+  font-size: 16px
+  letter-spacing: 0.8px
+  line-height: 27px
+.impressed__text-bot
+  @extend %p-preset
+  font-size: 14px
+  margin-left: 99px
+  margin-top: 20px
+  line-height: 25px
+.impressed__author
+  letter-spacing: 1px
 #portfolio
   height: 1635px
   background-color: #F3F3F3
@@ -480,7 +476,6 @@ header
     text-align: center
     margin-top: 72px
     font-size: 20.5px
-    letter-spacing: -0.2px
   p
     @extend %p-preset
     width: 460px
@@ -645,13 +640,14 @@ header
         font-size: 20px
         font-weight: bold
         margin-bottom: 0
+        position: relative
       #team-main-text-name::after
         content: ""
         position: absolute
         background: #19BD9A
         width: 4px
         height: 42px
-        right: 152px
+        right: -25px
       #team-main-text-occup
         @extend %h2-preset
         font-size: 14px
@@ -1125,47 +1121,46 @@ header
       @extend %p-preset
       font-size: 16px
       letter-spacing: 0.1px
-#map
+.map
   height: 496px
   position: relative
-  #map-black-block
-    height: 497px
-    width: 100%
-    background-color: black
-    opacity: 0.9
-    position: absolute
-    z-index: 2
-    top: 0px
-    #map-black-block-text
-      @extend %p-preset
-      font-size: 16px
-      color: white
-      width: 208px
-      height: 21px
-      margin-left: auto
-      margin-right: auto
-      margin-top: 237px
-      display: flex
-      justify-content: space-between
-      align-items: center
-      p
-        width: 175px
-    #map-black-block-button
-      width: 20px
-      height: 20px
-      background-color: #19BD9A
-      border-radius: 50%
-      display: flex
-      justify-content: center
-      align-items: center
-      cursor: pointer
-      #map-black-block-button-arrow
-        transform: rotate(135deg)
-        border: 1px solid white
-        height: 4px
-        width: 4px
-        border-bottom: none
-        border-left: none
+.map__black-block
+  height: 497px
+  width: 100%
+  background-color: black
+  opacity: 0.9
+  position: absolute
+  top: 0px
+.map__content
+  width: 208px
+  height: 21px
+  margin-left: auto
+  margin-right: auto
+  margin-top: 237px
+  display: flex
+  justify-content: space-between
+  align-items: center
+.map__text
+  @extend %p-preset
+  font-size: 16px
+  color: white
+  width: 175px
+.map__button
+  width: 20px
+  height: 20px
+  background-color: #19BD9A
+  border-radius: 50%
+  display: flex
+  justify-content: center
+  align-items: center
+  cursor: pointer
+.map__button-arrow
+  transform: rotate(135deg)
+  border: 1px solid white
+  height: 4px
+  width: 4px
+  border-bottom: none
+  border-left: none
 footer
   height: 290px
   background-color: #F3F3F3
